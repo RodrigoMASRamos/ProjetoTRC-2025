@@ -3,26 +3,416 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>NOME DO SITE AQUI! – Séries</title>
+        <title>Series</title>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
         <link rel="stylesheet" href="estilo.css">
         <link rel="icon" href="https://popcorntime.app/favicon.ico" type="image/x-icon">
     </head>
     <body>
-        <header>
-            <h1>Logotipo</h1>
-        </header>
-        <nav>
-            <a href="#">Menu 1</a>
-            <a href="#">Menu 2</a>
-        </nav>
-        <main>
-            <article>
-                <h2>Título do Artigo</h2>
-                <p>Conteúdo do artigo...</p>
-            </article>
-        </main>
+	  <nav class="navbar bg-body-tertiary">
+	<div class="container-fluid">
+		<a class="navbar-brand" href="#">
+      <img src="https://img.favpng.com/22/1/8/film-reel-png-favpng-Hcq47JmJKi7GqpR9qCRWU7CvC.jpg" alt="Logo" width="50" height="45" class="d-inline-block align-text-top">
+      Filmes e séries
+    </a>
+  </div>
+</nav>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Barra de navegação</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Cinema</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Séries</a><!--AONDE PÕE O LINK #-->
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Arte
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Livros</a></li>
+            <li><a class="dropdown-item" href="#">Teatro</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Fotografia</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="false">Comunidade</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar"/>
+        <button class="btn btn-outline-success" type="submit">Pesquisar</button>
+      </form>
+    </div>
+  </div>
+
+</nav>
+	<!-- Banner simples sem imagem de fundo -->
+	<div class="container-fluid my-3">
+		<div class="bg-dark text-white rounded p-4 d-flex flex-column justify-content-center" style="height: 200px;">
+				<h1 class="h3">Séries</h1>
+				<p class="mb-3">Confira as indicações das melhores séries para assistir!</p>
+		</div>
+	</div>
+		
+		<!-- Cards Animações --!>
+		<div class="container mt-2">
+			<div class="row g-4">
+			
+			<!-- Card 1 -->
+			<div class="col-4">
+				<div class="card">
+					<img src= "https://static.wikia.nocookie.net/international-entertainment-project/images/1/1d/The_Office_%282005%29_-_poster.jpg/revision/latest/scale-to-width-down/1200?cb=20230825195839" class="card-img-top" alt="The Office">
+					<div class="card-body">
+						<h5 class="card-title">The Office</h5>
+						<p class="card-text">Um escritório comum vira cenário de situações absurdas. Com um chefe atrapalhado e funcionários únicos, tudo pode acontecer. Humor desconfortável e cotidiano se misturam nessa comédia genial.</p>
+					</div>
+					<ul class="list-group list-group-flush">
+					  <li class="list-group-item">Popcornmeter: 94%</li>
+					  <li class="list-group-item">Gênero: Sitcom</li>
+					  <li class="list-group-item">Lançamento: 2005</li>
+					</ul>
+					<div class="card-body">
+					  <a href="#" class="card-link">Mais detalhes</a>
+					</div>
+				</div>
+			</div>
+			
+			<!-- Card 2 -->
+			<div class="col-4">
+				<div class="card">
+					<img src="https://static.wikia.nocookie.net/strangerthings/images/3/3d/Poster_primeira_temp.png/revision/latest/scale-to-width-down/1200?cb=20160817210541&path-prefix=pt-br" class="card-img-top" alt="Stranger Things">
+					<div class="card-body">
+						<h5 class="card-title">Stranger Things</h5>
+						<p class="card-text">Um garoto desaparece e segredos sobrenaturais vêm à tona. Crianças enfrentam monstros, um mundo paralelo e um governo sombrio. Anos 80, amizade e aventura definem a série.</p>
+					</div>
+					<ul class="list-group list-group-flush">
+					  <li class="list-group-item">Popcornmeter: 95%</li>
+					  <li class="list-group-item">Gênero: Terror</li>
+					  <li class="list-group-item">Lançamento: 2016</li>
+					</ul>
+					<div class="card-body">
+					  <a href="#" class="card-link">Mais detalhes</a>
+					</div>
+				</div>
+			</div>
+			
+			<!-- Card 3 -->
+			<div class="col-4">
+				<div class="card">
+					<img src="https://static.wikia.nocookie.net/dublagem/images/b/b9/Wandinha.png/revision/latest/scale-to-width-down/1200?cb=20221221143325&path-prefix=pt-br" alt="Wandinha">
+					<div class="card-body">
+						<h5 class="card-title">Wandinha</h5>
+						<p class="card-text">Wandinha Addams vai para uma escola de jovens peculiares. Com seu humor ácido e estilo sombrio, ela se destaca entre os colegas. Ela investiga crimes e aprende a lidar com seus poderes.</p>
+					</div>
+					<ul class="list-group list-group-flush">
+					  <li class="list-group-item">Popcornmeter: 93%</li>
+					  <li class="list-group-item">Gênero: Terror</li>
+					  <li class="list-group-item">Lançamento: 2022</li>
+					</ul>
+					<div class="card-body">
+					  <a href="#" class="card-link">Mais detalhes</a>
+					</div>
+				</div>
+			</div>
+			
+			<!-- Card 4 -->
+			<div class="col-4">
+				<div class="card">
+					<img src="https://image.tmdb.org/t/p/original/e3oGYpoTUhOFK0BJfloru5ZmGV.jpg" class="card-img-top" alt="Breaking Bad">
+					<div class="card-body">
+						<h5 class="card-title">Breaking Bad</h5>
+						<p class="card-text">Um professor de química vira traficante para sustentar a família. A cada passo, se afunda mais no mundo do crime. É tensa, brilhante e imprevisível.</p>
+					</div>
+					<ul class="list-group list-group-flush">
+					  <li class="list-group-item">Popcornmeter: 95%</li>
+					  <li class="list-group-item">Gênero: Drama</li>
+					  <li class="list-group-item">Lançamento: 2008</li>
+					</ul>
+					<div class="card-body">
+					  <a href="#" class="card-link">Mais detalhes</a>
+					</div>
+				</div>
+			</div>
+			
+			<!-- Card 5 -->
+			<div class="col-4">
+				<div class="card">
+					<img src="https://static.wikia.nocookie.net/dublagem/images/c/c9/Round_6_-_O_Desafio.jpg/revision/latest/scale-to-width-down/1200?cb=20231124051649&path-prefix=pt-br" class="card-img-top" alt="Round 6">
+					<div class="card-body">
+						<h5 class="card-title">Round 6</h5>
+						<p class="card-text">Pessoas endividadas participam de jogos mortais por dinheiro. Só um pode vencer, e cada rodada é letal. Violenta, crítica e cheia de reviravoltas.</p>
+					</div>
+					<ul class="list-group list-group-flush">
+					  <li class="list-group-item">Popcornmeter: 79%</li>
+					  <li class="list-group-item">Gênero: Thriller</li>
+					  <li class="list-group-item">Lançamento: 2021</li>
+					</ul>
+					<div class="card-body">
+					  <a href="#" class="card-link">Mais detalhes</a>
+					</div>
+				</div>
+			</div>
+			
+			<!-- Card 6 -->
+			<div class="col-4">
+				<div class="card">
+					<img src="https://static.wikia.nocookie.net/international-entertainment-project/images/7/71/Friends_-_poster_%28English%29.jpg/revision/latest/scale-to-width-down/1200?cb=20220222020829" class="card-img-top" alt="Friends">
+					<div class="card-body">
+						<h5 class="card-title">Friends</h5>
+						<p class="card-text">Seis amigos vivem amores, dramas e piadas em Nova York. Entre cafés e confusões, a amizade é o elo principal. Uma das sitcoms mais queridas de todos os tempos.</p>
+					</div>
+					<ul class="list-group list-group-flush">
+					  <li class="list-group-item">Popcornmeter: 93%</li>
+					  <li class="list-group-item">Gênero: Sitcom</li>
+					  <li class="list-group-item">Lançamento: 1994</li>
+					</ul>
+					<div class="card-body">
+					  <a href="#" class="card-link">Mais detalhes</a>
+					</div>
+				</div>
+			</div>
+			
+			<!-- Card 7 -->
+			<div class="col-4">
+				<div class="card">
+					<img src="https://static.wikia.nocookie.net/tvdatabase/images/b/bc/Supernatural.jpg/revision/latest/scale-to-width-down/1200?cb=20180607183923" class="card-img-top" alt="Supernatural">
+					<div class="card-body">
+						<h5 class="card-title">Supernatural</h5>
+						<p class="card-text">Dois irmãos caçam monstros, fantasmas e demônios pela estrada. Enfrentam perigos, lendas e batalhas do bem contra o mal. Terror, ação e muita emoção sobrenatural.</p>
+					</div>
+					<ul class="list-group list-group-flush">
+					  <li class="list-group-item">Popcornmeter: 94%</li>
+					  <li class="list-group-item">Gênero: Drama</li>
+					  <li class="list-group-item">Lançamento: 2005</li>
+					</ul>
+					<div class="card-body">
+					  <a href="#" class="card-link">Mais detalhes</a>
+					</div>
+				</div>
+			</div>
+			
+			<!-- Card 8 -->
+			<div class="col-4">
+				<div class="card">
+					<img src="https://i.redd.it/kzpkd4pjitye1.png" alt="Vikings">
+					<div class="card-body">
+						<h5 class="card-title">Vikings</h5>
+						<p class="card-text">Ragnar lidera invasões enquanto desafia reis e deuses. A série mostra sangue, honra e ambição no mundo nórdico. É épica, intensa e cheia de batalhas brutais.</p>
+					</div>
+					<ul class="list-group list-group-flush">
+					  <li class="list-group-item">Popcornmeter: 94%</li>
+					  <li class="list-group-item">Gênero: Ficção histórica</li>
+					  <li class="list-group-item">Lançamento: 2013</li>
+					</ul>
+					<div class="card-body">
+					  <a href="#" class="card-link">Mais detalhes</a>
+					</div>
+				</div>
+			</div>
+			
+			<!-- Card 9 -->
+			<div class="col-4">
+				<div class="card">
+					<img src="https://static.wikia.nocookie.net/dublagem/images/6/61/The_Big_Bang_Theory_Season_12_Poster.jpg/revision/latest/scale-to-width-down/1200?cb=20241117203617&path-prefix=pt-br" class="card-img-top" alt="A Teoria do Big Bang">
+					<div class="card-body">
+						<h5 class="card-title">A Teoria do Big Bang</h5>
+						<p class="card-text">Nerds brilhantes enfrentam os desafios da vida social. Entre ciência, piadas e romances, tudo pode acontecer. Uma comédia sobre gênios nada convencionais.</p>
+					</div>
+					<ul class="list-group list-group-flush">
+					  <li class="list-group-item">Popcornmeter: 92%</li>
+					  <li class="list-group-item">Gênero: Sitcom</li>
+					  <li class="list-group-item">Lançamento: 2007</li>
+					</ul>
+					<div class="card-body">
+					  <a href="#" class="card-link">Mais detalhes</a>
+					</div>
+				</div>
+			</div>
+			
+			<!-- Card 10 -->
+			<div class="col-4">
+				<div class="card">
+					<img src="https://image.tmdb.org/t/p/original/ptIwnohl6Xe6blZKqWyFttsubVx.jpg" class="card-img-top" alt="Prision Break">
+					<div class="card-body">
+						<h5 class="card-title">Prision Break</h5>
+						<p class="card-text">Michael entra na prisão para salvar o irmão. Ele planeja uma fuga arriscada e inteligente. Suspense, ação e reviravoltas constantes.</p>
+					</div>
+					<ul class="list-group list-group-flush">
+					  <li class="list-group-item">Popcornmeter: 93%</li>
+					  <li class="list-group-item">Gênero: Drama</li>
+					  <li class="list-group-item">Lançamento: 2005</li>
+					</ul>
+					<div class="card-body">
+					  <a href="#" class="card-link">Mais detalhes</a>
+					</div>
+				</div>
+			</div>			
+
+			<!-- Card 11 -->
+			<div class="col-4">
+				<div class="card">
+					<img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/6d3c6b109314453.5fd121d0408e5.png" class="card-img-top" alt="Euphoria">
+					<div class="card-body">
+						<h5 class="card-title">Euphoria</h5>
+						<p class="card-text">Rue enfrenta vícios e traumas na adolescência. Jovens vivem dramas intensos e reais. Visual forte e temas profundos.</p>
+					</div>
+					<ul class="list-group list-group-flush">
+					  <li class="list-group-item">Popcornmeter: 90%</li>
+					  <li class="list-group-item">Gênero: Drama</li>
+					  <li class="list-group-item">Lançamento: 2019</li>
+					</ul>
+					<div class="card-body">
+					  <a href="#" class="card-link">Mais detalhes</a>
+					</div>
+				</div>
+			</div>			
+
+			<!-- Card 12 -->
+			<div class="col-4">
+				<div class="card">
+					<img src="https://image.tmdb.org/t/p/original/kA7o0Q6xeyBZ4lVmEtM0k6X608o.jpg" class="card-img-top" alt="Bates Motel">
+					<div class="card-body">
+						<h5 class="card-title">Bates Motel</h5>
+						<p class="card-text">Norman vive com a mãe em um motel isolado. Sua mente começa a se fragmentar. Um suspense psicológico sombrio.</p>
+					</div>
+					<ul class="list-group list-group-flush">
+					  <li class="list-group-item">Popcornmeter: 89%</li>
+					  <li class="list-group-item">Gênero: Terror</li>
+					  <li class="list-group-item">Lançamento: 2013</li>
+					</ul>
+					<div class="card-body">
+					  <a href="#" class="card-link">Mais detalhes</a>
+					</div>
+				</div>
+			</div>			
+
+			<!-- Card 13 -->
+			<div class="col-4">
+				<div class="card">
+					<img src="https://static.wikia.nocookie.net/gameofthrones/images/5/50/Game_of_Thrones_capa.jpg/revision/latest/scale-to-width-down/1200?cb=20210811234613&path-prefix=pt-br" class="card-img-top" alt="Game of Thrones">
+					<div class="card-body">
+						<h5 class="card-title">Game of Thrones</h5>
+						<p class="card-text">Famílias brigam pelo Trono de Ferro. Intrigas, guerras e dragões dominam. Nada é previsível neste épico.</p>
+					</div>
+					<ul class="list-group list-group-flush">
+					  <li class="list-group-item">Popcornmeter: 92%</li>
+					  <li class="list-group-item">Gênero: Drama</li>
+					  <li class="list-group-item">Lançamento: 2011</li>
+					</ul>
+					<div class="card-body">
+					  <a href="#" class="card-link">Mais detalhes</a>
+					</div>
+				</div>
+			</div>			
+
+			<!-- Card 14 -->
+			<div class="col-4">
+				<div class="card">
+					<img src="https://static.wikia.nocookie.net/gossipgirl/images/b/b7/GG2021S2poster.jpg/revision/latest/scale-to-width-down/1200?cb=20221116035046" class="card-img-top" alt="Gossip Girl">
+					<div class="card-body">
+						<h5 class="card-title">Gossip Girl</h5>
+						<p class="card-text">Segredos da elite de NY são expostos online. Romances e traições movimentam tudo. Estilo, drama e muita fofoca.</p>
+					</div>
+					<ul class="list-group list-group-flush">
+					  <li class="list-group-item">Popcornmeter: 91%</li>
+					  <li class="list-group-item">Gênero: Drama</li>
+					  <li class="list-group-item">Lançamento: 2007</li>
+					</ul>
+					<div class="card-body">
+					  <a href="#" class="card-link">Mais detalhes</a>
+					</div>
+				</div>
+			</div>			
+			
+			<!-- Card 15 -->
+			<div class="col-4">
+				<div class="card">
+					<img src="https://static.wikia.nocookie.net/international-entertainment-project/images/3/36/Brooklyn_Nine-Nine_-_poster.jpg/revision/latest/scale-to-width-down/1200?cb=20231026133529" class="card-img-top" alt="Brooklyn Nine Nine">
+					<div class="card-body">
+						<h5 class="card-title">Brooklyn Nine Nine</h5>
+						<p class="card-text">Detetives resolvem crimes com bom humor. Jake e sua equipe são hilários e leais. Comédia leve e inteligente.</p>
+					</div>
+					<ul class="list-group list-group-flush">
+					  <li class="list-group-item">Popcornmeter: 94%</li>
+					  <li class="list-group-item">Gênero: Sitcom</li>
+					  <li class="list-group-item">Lançamento: 2013</li>
+					</ul>
+					<div class="card-body">
+					  <a href="#" class="card-link">Mais detalhes</a>
+					</div>
+				</div>
+			</div>			
+
+			<!-- Card 16 -->
+			<div class="col-4">
+				<div class="card">
+					<img src="https://i.redd.it/dp1a438e1pad1.jpeg" class="card-img-top" alt="Eu a patroa e as criancas">
+					<div class="card-body">
+						<h5 class="card-title">Eu, a patroa e as crianças</h5>
+						<p class="card-text">Michael tenta controlar sua família caótica. Situações engraçadas e cheias de lições. Uma comédia familiar divertida.</p>
+					</div>
+					<ul class="list-group list-group-flush">
+					  <li class="list-group-item">Popcornmeter: 95%</li>
+					  <li class="list-group-item">Gênero: Sitcom</li>
+					  <li class="list-group-item">Lançamento: 2001</li>
+					</ul>
+					<div class="card-body">
+					  <a href="#" class="card-link">Mais detalhes</a>
+					</div>
+				</div>
+			</div>			
+
+			<!-- Card 17 -->
+			<div class="col-4">
+				<div class="card">
+					<img src="https://image.tmdb.org/t/p/original/5DHlhR5WHDFGkM5agZqfrtR7oDX.jpg" class="card-img-top" alt="Dexter">
+					<div class="card-body">
+						<h5 class="card-title">Dexter</h5>
+						<p class="card-text">Perito forense esconde ser um serial killer. Só mata quem "merece" morrer. Tenso, sombrio e viciante.</p>
+					</div>
+					<ul class="list-group list-group-flush">
+					  <li class="list-group-item">Popcornmeter: 88%</li>
+					  <li class="list-group-item">Gênero: Drama</li>
+					  <li class="list-group-item">Lançamento: 2006</li>
+					</ul>
+					<div class="card-body">
+					  <a href="#" class="card-link">Mais detalhes</a>
+					</div>
+				</div>
+			</div>			
+
+			<!-- Card 18 -->
+			<div class="col-4">
+				<div class="card">
+					<img src="https://m.media-amazon.com/images/M/MV5BYmEwNzMwMDMtMWZlNS00OTczLTg1MDYtODY3ZWZlYzlhZWI3XkEyXkFqcGc@._V1_.jpg" class="card-img-top" alt="The Walking Dead">
+					<div class="card-body">
+						<h5 class="card-title">The Walking Dead</h5>
+						<p class="card-text">Zumbis dominam o mundo pós-apocalíptico. Sobreviventes enfrentam medo e humanos cruéis. Luta constante pela vida.</p>
+					</div>
+					<ul class="list-group list-group-flush">
+					  <li class="list-group-item">Popcornmeter: 96%</li>
+					  <li class="list-group-item">Gênero: Terror</li>
+					  <li class="list-group-item">Lançamento: 2010</li>
+					</ul>
+					<div class="card-body">
+					  <a href="#" class="card-link">Mais detalhes</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<br>
+		<br>
         <footer>
-            <p>&copy; 2025 Meu Site</p>
+            <p> © 2025 - FILME E SÉRIES - Feitos por Rafaela Gaeta, Ariescha Valentim e Rodrigo Ramos</p>
         </footer>
     </body>
 </html>
